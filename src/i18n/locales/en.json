@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "programs": "Programs",
+    "impact": "Impact",
+    "getInvolved": "Get Involved",
+    "contact": "Contact",
+    "donate": "Donate"
+  },
+  "hero": {
+    "title": "Healing Minds, Building Hope",
+    "subtitle": "Mental Health Support in Africa",
+    "description": "Providing compassionate mental health support and resources to help refugees rebuild their lives across Africa",
+    "cta": {
+      "support": "Get Support Now",
+      "join": "Join Our Community"
+    },
+    "stats": {
+      "lives": "Lives Touched",
+      "countries": "Countries",
+      "support": "Support"
+    },
+    "emergency": {
+      "title": "24/7 Crisis Support",
+      "phone": "+250 782 485 566"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "whoWeAre": {
+      "title": "Who We Are",
+      "description": "Ihumure is a continental initiative dedicated to addressing the mental health challenges of Africans, with a particular focus on Rwanda and refugee populations."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To build a mentally resilient and emotionally empowered African population by 2035, ensuring access to mental health care and support."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "A world where every African feels supported with culturally sensitive and accessible mental health care."
+    }
+  },
+  "stats": {
+    "title": "Why Mental Health Matters",
+    "crisis": {
+      "title": "Mental Health Crisis",
+      "description": "50% of refugees in Rwanda face serious mental health challenges based on GHQ-28"
+    },
+    "depression": {
+      "title": "Depression & Anxiety",
+      "description": "20-67% experience depression, with 34.6% reporting anxiety among refugees"
+    },
+    "impact": {
+      "title": "Continental Impact",
+      "description": "15-20% experience depression across Africa, with 10-15% facing anxiety disorders"
+    },
+    "community": {
+      "title": "Community Approach",
+      "description": "Culturally sensitive care and community-based interventions for improved resilience"
+    }
+  },
+  "programs": {
+    "title": "Our Programs",
+    "awareness": {
+      "title": "Awareness & Stigma Reduction",
+      "description": "Umurava Mental Health Awareness campaign reaching 2 million Africans annually."
+    },
+    "access": {
+      "title": "Access to Care",
+      "description": "50 mental health clinics across Africa by 2030 and telehealth services for 2 million users."
+    },
+    "trauma": {
+      "title": "Trauma Healing",
+      "description": "6 trauma centers in Rwanda refugee camps & online trauma care for other African regions."
+    },
+    "youth": {
+      "title": "Youth Empowerment",
+      "description": "Mental health education in 1,000 schools, impacting 5 million students."
+    },
+    "research": {
+      "title": "Research & Advocacy",
+      "description": "Comprehensive mental health surveys in 20 African countries by 2030."
+    },
+    "support": {
+      "title": "Community Support",
+      "description": "Training 50,000 community mental health workers across Africa."
+    }
+  },
+  "impact": {
+    "title": "Our Impact",
+    "stats": {
+      "individuals": "Individuals Impacted",
+      "refugees": "Refugees Receiving Care",
+      "clinics": "Clinics & Centers",
+      "workers": "Mental Health Workers Trained"
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "1": {
+        "quote": "Ihumure changed my life. After trauma therapy, I can finally see a future for myself.",
+        "author": "Aisha, Refugee in Rwanda"
+      },
+      "2": {
+        "quote": "With access to mental health care, I was able to return to school and follow my dreams.",
+        "author": "Emmanuel, Mental Health Beneficiary"
+      },
+      "3": {
+        "quote": "The community support program gave me the tools to manage my anxiety effectively.",
+        "author": "Grace, Program Participant"
+      }
+    }
+  },
+  "getInvolved": {
+    "title": "Get Involved",
+    "donate": {
+      "title": "Donate",
+      "description": "Support our programs and help us reach more people in need.",
+      "action": "Make a Donation"
+    },
+    "volunteer": {
+      "title": "Volunteer",
+      "description": "Join our team and make a direct impact in communities.",
+      "action": "Join Us"
+    },
+    "partner": {
+      "title": "Partner With Us",
+      "description": "Collaborate with us to expand our reach and impact.",
+      "action": "Become a Partner"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch",
+    "description": "Have questions about our programs or want to get involved? Reach out to us and we'll get back to you as soon as possible.",
+    "info": {
+      "email": "info@ihumure.org",
+      "phone": "+250 782 485 566",
+      "location": "Kigali, Rwanda"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "chatbot": {
+    "title": "Mental Health Support",
+    "welcome": "Hello! I'm here to help you with mental health resources and support.",
+    "help": "How can I assist you today?",
+    "placeholder": "Type your message here...",
+    "response": "Thank you for reaching out. A mental health professional will contact you shortly. For immediate assistance, please call our 24/7 helpline: +250 782 485 566"
+  }
+}

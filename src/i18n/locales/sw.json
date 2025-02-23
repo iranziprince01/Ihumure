@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "home": "Nyumbani",
+    "about": "Kuhusu",
+    "programs": "Programu",
+    "impact": "Athari",
+    "getInvolved": "Shiriki",
+    "contact": "Wasiliana",
+    "donate": "Changia"
+  },
+  "hero": {
+    "title": "Kuponya Akili, Kujenga Matumaini",
+    "subtitle": "Kutoa msaada wa afya ya akili na rasilimali kusaidia wakimbizi kujenga upya maisha yao Afrika",
+    "cta": {
+      "support": "Pata Msaada Sasa",
+      "join": "Jiunge na Jamii Yetu"
+    }
+  },
+  "chatbot": {
+    "title": "Msaada wa Afya ya Akili",
+    "welcome": "Habari! Niko hapa kukusaidia na rasilimali za afya ya akili na msaada.",
+    "help": "Nawezaje kukusaidia leo?",
+    "placeholder": "Andika ujumbe wako hapa...",
+    "response": "Asante kwa kuwasiliana nasi. Mtaalamu wa afya ya akili atawasiliana nawe hivi karibuni. Kwa msaada wa haraka, tafadhali piga simu kwenye namba yetu ya msaada ya saa 24: +250 782 485 566"
+  }
+}

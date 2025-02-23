@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "home": "Ahabanza",
+    "about": "Turi ba nde",
+    "programs": "Gahunda",
+    "impact": "Ibyagezweho",
+    "getInvolved": "Uko watugiramo inama",
+    "contact": "Twandikire",
+    "donate": "Dutere inkunga"
+  },
+  "hero": {
+    "title": "Gukiza Ubwenge, Kubaka Icyizere",
+    "subtitle": "Gutanga ubufasha bw'ubuzima bwo mu mutwe n'ibikoresho bifasha impunzi kongera kubaka ubuzima bwabo muri Afurika",
+    "cta": {
+      "support": "Bona Ubufasha Nonaha",
+      "join": "Winjire mu Muryango Wacu"
+    }
+  },
+  "chatbot": {
+    "title": "Ubufasha bw'Ubuzima bwo mu Mutwe",
+    "welcome": "Muraho! Ndi hano kugufasha kubona ibikoresho by'ubuzima bwo mu mutwe n'ubufasha.",
+    "help": "Nakugirira iyihe nama uyu munsi?",
+    "placeholder": "Andika ubutumwa bwawe hano...",
+    "response": "Urakoze kutwegera. Umuhanga mu by'ubuzima bwo mu mutwe azakuvugisha vuba. Ku bufasha bwihuse, hamagara umurongo wacu ukorera amasaha 24: +250 782 485 566"
+  }
+}

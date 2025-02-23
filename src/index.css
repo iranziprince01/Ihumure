@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-blue: #002e6d;
+  --primary-yellow: #ffe600;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  @apply antialiased;
+}
+
+/* Responsive section heights */
+section {
+  min-height: 100vh;
+  min-height: 100svh; /* Support for mobile browsers */
+  display: flex;
+  align-items: center;
+  scroll-margin-top: 5rem;
+}
+
+@media (max-width: 768px) {
+  section {
+    min-height: auto;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+/* Navigation styles */
+.nav-link {
+  @apply text-white hover:text-[#ffe600] transition-colors duration-200 font-medium relative;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute left-0 bottom-0 w-0 h-0.5 bg-[#ffe600] transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+.nav-link.scrolled {
+  @apply text-[#002e6d] hover:text-[#003d91];
+}
+
+.nav-link.scrolled::after {
+  @apply bg-[#002e6d];
+}
+
+/* Button styles with improved touch targets */
+.donate-btn {
+  @apply bg-[#ffe600] text-[#002e6d] px-6 py-3 rounded-full hover:bg-yellow-400 
+         transition-all duration-300 transform hover:scale-105 font-medium shadow-md
+         active:scale-95 focus:outline-none focus:ring-2 focus:ring-yellow-300 focus:ring-offset-2;
+}
+
+.primary-btn {
+  @apply bg-[#002e6d] text-white px-6 py-3 rounded-full hover:bg-[#003d91] 
+         transition-all duration-300 transform hover:scale-105 font-medium shadow-md
+         active:scale-95 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-2;
+}
+
+.secondary-btn {
+  @apply bg-[#ffe600] text-[#002e6d] px-6 py-3 rounded-full hover:bg-yellow-400 
+         transition-all duration-300 font-medium shadow-md
+         active:scale-95 focus:outline-none focus:ring-2 focus:ring-yellow-300 focus:ring-offset-2;
+}
+
+/* Form input styles with better touch targets */
+.input-field {
+  @apply w-full px-4 py-3 border border-gray-300 rounded-lg 
+         focus:ring-2 focus:ring-[#002e6d] focus:border-transparent transition-all duration-200
+         text-base md:text-lg;
+}
+
+/* Responsive text utilities */
+.responsive-text-xl {
+  @apply text-lg md:text-xl lg:text-2xl;
+}
+
+.responsive-text-2xl {
+  @apply text-xl md:text-2xl lg:text-3xl;
+}
+
+.responsive-text-3xl {
+  @apply text-2xl md:text-3xl lg:text-4xl;
+}
+
+/* Card hover effects with touch consideration */
+.hover-card {
+  @apply transition-all duration-300 transform hover:scale-105 hover:shadow-xl
+         active:scale-95 cursor-pointer;
+}
+
+/* Glass effect */
+.glass-effect {
+  @apply backdrop-blur-sm bg-white/10 border border-white/20;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes float-delayed {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes spin-slow-reverse {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float-delayed 8s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
+.animate-spin-slow-reverse {
+  animation: spin-slow-reverse 15s linear infinite;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out;
+}
+
+.animate-slideUp {
+  animation: slideUp 1s ease-out;
+}
+
+/* Animation delays */
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-700 { animation-delay: 700ms; }
+.delay-1000 { animation-delay: 1000ms; }
+
+/* Hero section specific styles */
+#home {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  min-height: 100svh;
+  background: linear-gradient(to bottom right, #002e6d, #003d91, #002e6d);
+}
+
+#home::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, rgba(0, 46, 109, 0.5) 0%, rgba(0, 46, 109, 0.8) 100%);
+  z-index: 1;
+}
+
+#home > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Responsive grid layouts */
+.responsive-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8;
+}
+
+.responsive-grid-2 {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8;
+}
+
+/* Touch-friendly menu items */
+.mobile-menu-item {
+  @apply px-4 py-3 text-lg w-full text-left hover:bg-gray-50 transition-colors
+         active:bg-gray-100 focus:outline-none focus:bg-gray-50;
+}
+
+/* Improved scrollbar */
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #002e6d;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #003d91;
+  }
+}
+
+/* Safe area insets for modern mobile browsers */
+.safe-area-padding {
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-top: env(safe-area-inset-top);
+}
+
+/* Prevent text size adjustment on orientation change */
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Better touch targets for interactive elements */
+button, 
+a, 
+input[type="button"], 
+input[type="submit"] {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Responsive images */
+.responsive-image {
+  @apply w-full h-auto object-cover object-center;
+}
+
+/* Responsive container padding */
+.responsive-container {
+  @apply px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto;
+}
+
+/* Improved focus styles */
+:focus-visible {
+  @apply outline-none ring-2 ring-[#002e6d] ring-offset-2;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none;
+  }
+}

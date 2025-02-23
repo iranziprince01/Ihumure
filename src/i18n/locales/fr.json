@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "programs": "Programmes",
+    "impact": "Impact",
+    "getInvolved": "S'impliquer",
+    "contact": "Contact",
+    "donate": "Faire un don"
+  },
+  "hero": {
+    "title": "Guérir les Esprits, Construire l'Espoir",
+    "subtitle": "Fournir un soutien et des ressources en santé mentale pour aider les réfugiés à reconstruire leur vie en Afrique",
+    "cta": {
+      "support": "Obtenir de l'aide",
+      "join": "Rejoindre notre communauté"
+    }
+  },
+  "chatbot": {
+    "title": "Soutien en Santé Mentale",
+    "welcome": "Bonjour! Je suis là pour vous aider avec des ressources et du soutien en santé mentale.",
+    "help": "Comment puis-je vous aider aujourd'hui?",
+    "placeholder": "Écrivez votre message ici...",
+    "response": "Merci de nous avoir contactés. Un professionnel de la santé mentale vous contactera sous peu. Pour une assistance immédiate, veuillez appeler notre ligne d'assistance 24/7: +250 782 485 566"
+  }
+}
